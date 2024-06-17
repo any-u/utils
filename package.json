@@ -1,6 +1,6 @@
 {
-  "name": "utils",
-  "version": "0.0.0-beta.1",
+  "name": "@any-u/utils",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "any-u",
   "main": "dist/index.cjs",

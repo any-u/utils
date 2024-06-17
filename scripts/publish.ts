@@ -13,4 +13,4 @@ if (version.includes('beta')) {
 
 execSync('npm run update', { stdio: 'inherit' })
 execSync(command, { stdio: 'inherit', cwd: path.join(__dirname, '../')})
-consola.success(`Published unsso`)
+consola.success(`Published Utils`)
