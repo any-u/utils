@@ -29,4 +29,11 @@ export default defineConfig([{
     ...plugins,
     dts()
   ],
+},{
+  input,
+  output: {
+    file: `dist/index.cjs`,
+    format: 'cjs'
+  },
+  plugins,
 }])

@@ -5,7 +5,7 @@ import { version } from '../package.json'
 
 execSync('npm run build', { stdio: 'inherit' })
 
-let command = 'npm publish --registry=https://registry.npmjs.org/'
+let command = 'npm publish --registry=https://registry.npmjs.org/ --access public'
 
 if (version.includes('beta')) {
   command += ' --tag beta'
