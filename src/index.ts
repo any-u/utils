@@ -4,4 +4,4 @@ export * from './type'
 export * from "./object"
 export * from "./json"
 export * from "./url"
-export * from './request'
+export * from './execute'
